@@ -1,0 +1,97 @@
+body {
+ font-family: Arial, Helvetica, sans-serif; 
+ color: #333;
+ background-color: #d5d7dd;
+}
+
+.list-container {
+  min-width: 230px;
+  max-width: 550px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 7px;
+  box-shadow: 0 0 13px rgba(0, 0, 0, 0.2);
+}
+
+.list-title {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.list-subtitle {
+  color: #555;
+  text-align: center;
+}
+
+.list-action {
+  padding: 20px 20px 0px 20px;
+}
+
+.list-select {
+  padding: 20px 20px 0px 40px;
+}
+
+.list-notify {
+  color: rgb(245, 130, 130);
+  padding: 0px 20px 20px 20px;
+}
+
+.list-list {
+  padding: 20px;
+}
+
+.list-item {
+  background-color: white;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.list-item-title {
+  color: #555; 
+}
+
+input[type=checkbox] {
+  opacity: 0.7;
+  margin-right: 20px;
+}
+
+input[type=text] {
+  width: 92%;
+  border: 0px solid #ccc;
+  padding: 12px 20px;
+  margin: 10px 10px 10px 0px;
+  border-radius: 4px;
+  color: #555;
+  background-color: #efefef;
+}
+
+#add {
+  background-color: #dddddd;
+  border: none;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border-radius: 4px;
+  color: #565656;
+}
+
+#add:hover {
+  background-color: #aeacac;
+  cursor: pointer;
+}
+
+#delete {
+  background-color: #dddddd;
+  padding: 10px 20px;
+  margin: 10px;
+  color: #565656;
+  border-radius: 4px;
+  border: 0px solid #ccc;
+}
+
+#delete:hover {
+  background-color: #aeacac;
+  cursor: pointer;
+}
